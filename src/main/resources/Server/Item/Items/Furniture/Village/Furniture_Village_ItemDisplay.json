@@ -1,0 +1,129 @@
+{
+  "TranslationProperties": {
+    "Name": "items.ItemDisplays_Furniture_Village_ItemDisplay.name"
+  },
+  "Parent": "Wood_Softwood_Planks_Half",
+  "Icon": "Icons/ItemsGenerated/Furniture_Village_ItemDisplay.png",
+  "Set": "ItemDisplays_Item_Display",
+  "Recipe": {
+    "Input": [
+      {
+        "ItemId": "Ingredient_Stick",
+        "Quantity": 4
+      },
+      {
+        "ItemId": "Ingredient_Fibre",
+        "Quantity": 5
+      }
+    ],
+    "TimeSeconds": 0,
+    "BenchRequirement": [
+      {
+        "Id": "Furniture_Bench",
+        "Type": "Crafting",
+        "Categories": [
+          "Furniture_Misc"
+        ]
+      }
+    ],
+    "OutputQuantity": 1
+  },
+  "BlockType": {
+    "CustomModelTexture": [
+      {
+        "Texture": "Blocks/Painting_Texture.png",
+        "Weight": 1
+      }
+    ],
+    "ParticleColor": "#693e2a",
+    "State": {
+      "Definitions": {
+        "Block": {
+          "Material": "Solid",
+          "DrawType": "Model",
+          "HitboxType": "Full",
+          "Textures": [
+            {
+              "All": "Blocks/Painting_Texture.png",
+              "Weight": 1
+            }
+          ],
+          "Supporting": {
+            "BlockSides": [
+              {}
+            ]
+          }
+        }
+      }
+    },
+    "CustomModel": "Blocks/ItemDisplay.blockymodel",
+    "Opacity": "Transparent",
+    "Material": "Solid",
+    "DrawType": "Model",
+    "Group": "",
+    "BlockParticleSetId": "Wood",
+    "VariantRotation": "DoublePipe",
+    "HitboxType": "ItemDisplay",
+    "BlockSoundSetId": "Wood",
+    "Gathering": {
+      "Soft": {
+        "ItemId": "Furniture_Village_ItemDisplay"
+      }
+    },
+    "BlockEntity": {
+      "Components": {
+        "ItemDisplays_DisplayAnchor": {}
+      }
+    },
+    "InteractionHint": "server.interactionHints.interactItemDisplay",
+    "SupportsRequiredFor": "All",
+    "Supporting": {
+      "Down": [
+        {
+          "FaceType": "Full"
+        }
+      ]
+    },
+    "InteractionHitboxType": "ItemDisplay",
+    "Interactions": {
+      "Use": "Item_Display"
+    }
+  },
+  "Tags": {
+    "Type": [
+      "Wood"
+    ],
+    "Family": [
+      "Hardwood"
+    ]
+  },
+  "IconProperties": {
+    "Scale": 0.9,
+    "Rotation": [
+      90,
+      40,
+      15
+    ],
+    "Translation": [
+      0,
+      0
+    ]
+  },
+  "UsePlayerAnimations": false,
+  "Categories": [
+    "Blocks.Deco"
+  ],
+  "ItemLevel": 0,
+  "MaxStack": 100,
+  "ItemSoundSetId": "ISS_Blocks_Wood",
+  "PlayerAnimationsId": "Block",
+  "ResourceTypes": [
+    {
+      "Id": "Fuel"
+    },
+    {
+      "Id": "Charcoal"
+    }
+  ],
+  "FuelQuality": 2
+}

@@ -1,0 +1,2 @@
+interactionHints.interactItemDisplay=Press [{key}] to modify display
+interactionHints.useItemInDisplay=Crouch Press [{key}] to modify {name}
